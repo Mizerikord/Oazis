@@ -1,75 +1,317 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title lang="en">Oazis-club</title>
-    <link rel="stylesheet" href="blocks/blocks.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./blocks/index.css">
 </head>
+
 <body class="page">
     <header class="header">
-        <div class="header-container">
-            <div class="header__logo"></div>
-            <ul class="header__nav-list">
-                <li class="header__nav-link">About</li>
-                <li class="header__nav-link">SPA</li>
-                <li class="header__nav-link">Fitness</li>
-                <li class="header__nav-link">Pool</li>
+        <img src="./images/oazis.png" alt="логотип" class="header__logo">
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link blackout">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link blackout">О нас</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link blackout">SPA</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link blackout">Fitness</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link blackout">Бассейн</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link blackout">Контакты</a>
+                </li>
             </ul>
-            <div class="header__profile"></div>
+        </div>
+        <div class="profile">
+            <div class="profile__img-container">
+                <img src="./images/lotod_flower__.png" alt="фото профиля" class="profile__img">
+            </div>
+            <p class="profile__name">Имя профиля</p>
         </div>
     </header>
     <main class="main">
-        <section class="everything">
-            <h1 class="everything__header">Велнес клуб "ОАЗИС"</h1>
-            <div class="everything-box">
-                <article class="everything-box__text">
-                    <ul class="everything-box__list">
-                        <li class="everything-box__item"> фитнес-центр (тренажерный зал и различные виды аэробики)</li>
-                        <li class="everything-box__item"> солярий</li>
-                        <li class="everything-box__item"> фитнес-бар</li>
-                        <li class="everything-box__item"> СПА-центр</li>
-                        <li class="everything-box__item"> услуги массажиста</li>
-                        <li class="everything-box__item"> русская баня - (для отдыха компанией до 10 человек)</li>
-                        <li class="everything-box__item"> бассейн с противотоками и гидромассажем</li>
-                        <li class="everything-box__item"> сауны - финская, турецкая, сауна-санариум</li>
-                    </ul>
-                    <p class="everything-box__paragraph">Тело - это первое, что приходит на ум, если говорить о красоте. Как ни странно, эстетические стандарты фигуры не всегда привлекают мужчин. Уверена, каждая из вас хотя бы раз в жизни слышала негативные высказывания в сторону моделей худышек… Так в чем же дело? Все просто, привлекательность тела очень субъективная вещь. И это касается не только фигуры, но и лица, рук, волос.</p>
-                </article>
-                <div class="everything-box__image"></div>
+        <section class="about">
+            <h1 class="about__title">Велнес клуб "Оазис"</h1>
+            <article class="about__preview">
+                <p class="about__subtitle">«Оазис» - Ваш курорт в городе! Это возможность сохранить на долгие годы
+                    молодость, здоровье и красоту.</p>
+                <p class="about__subtitle">«Оазис» - это целый комплекс услуг, которые позволят вам чувствовать себя
+                    абсолютно здоровым и счастливым не только физически, но и душевно.</p>
+                <p class="about__subtitle">«Оазис» - это уникальные программы релакса и грамотные специалисты, которые
+                    всегда готовы прийти на помощь вам и вашему здоровью.</p>
+            </article>
+            <div class="about__content">
+                <ul class="about__directions">
+                    <li class="direction">
+                        <h2 class="direction__title">Фитнесс-центр</h2>
+                        <ul class="direction__programm-list">
+                            <li class="direction__programm-item">Кардиозона</li>
+                            <li class="direction__programm-item">Тренажерный зал</li>
+                            <li class="direction__programm-item">Тренеры</li>
+                            <li class="direction__programm-item">Аэробные занятия</li>
+                        </ul>
+                        <a href="#" class="direction__link blackout">подробнее>></a>
+                    </li>
+                    <li class="direction">
+                        <h2 class="direction__title">СПА-центр</h2>
+                        <ul class="direction__programm-list">
+                            <li class="direction__programm-item">Оздоровительные программы</li>
+                            <li class="direction__programm-item">Спа пакет для двоих</li>
+                            <li class="direction__programm-item">Спа программы</li>
+                            <li class="direction__programm-item">Массаж</li>
+                            <li class="direction__programm-item">СПА-ритуал</li>
+                        </ul>
+                        <a href="#" class="direction__link blackout">подробнее>></a>
+                    </li>
+                    <li class="direction">
+                        <h2 class="direction__title">Аква-центр</h2>
+                        <ul class="direction__programm-list">
+                            <li class="direction__programm-item">турецкая сауна</li>
+                            <li class="direction__programm-item">сауна- санариум</li>
+                            <li class="direction__programm-item">финская сауна</li>
+                            <li class="direction__programm-item">гидромассаж</li>
+                            <li class="direction__programm-item">детская зона для купания</li>
+                        </ul>
+                        <a href="#" class="direction__link blackout">подробнее>></a>
+                    </li>
+                </ul>
+                <ul class="news">
+                    <li class="news__post">
+                        <p class="news__data">15.03.2023</p>
+                        <a href="" class="news__link blackout">Друзья, приходите на функциональный тренинг к
+                            Алексею!!!</a>
+                    </li>
+                    <li class="news__post">
+                        <p class="news__data">15.03.2023</p>
+                        <a href="" class="news__link blackout">Приглашаем вас на тренировку Upper Body к Екатерине!</a>
+                    </li>
+                    <li class="news__post">
+                        <p class="news__data">15.03.2023</p>
+                        <a href="" class="news__link blackout">Друзья, приходите на функциональный тренинг к
+                            Алексею!!!</a>
+                    </li>
+                    <li class="news__post">
+                        <p class="news__data">15.03.2023</p>
+                        <a href="" class="news__link blackout">Приглашаем вас на тренировку Upper Body к Екатерине!</a>
+                    </li>
+                    <li class="news__post">
+                        <p class="news__data">15.03.2023</p>
+                        <a href="" class="news__link blackout">Приглашаем вас на тренировку Upper Body к Екатерине!</a>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section class="spa">
-            <h2 class="spa__title">SPA</h2>
-            <p class="spa__subtitle">Текст о том, что могут предложить</p>
-            <ul class="spa__cards">
-                <li class="card">
-                    <img src="" alt="" class="card__img">
-                    <p class="card__text"></p>
-                </li>
-                <li class="card">
-                    <img src="" alt="" class="card__img">
-                    <p class="card__text"></p>
-                </li>
-                <li class="card">
-                    <img src="" alt="" class="card__img">
-                    <p class="card__text"></p>
-                </li>
-                <li class="card">
-                    <img src="" alt="" class="card__img">
-                    <p class="card__text"></p>
-                </li>
-                <li class="card">
-                    <img src="" alt="" class="card__img">
-                    <p class="card__text"></p>
-                </li>
-            </ul>
+        <section class="fitness">
+            <h2 class="fitness__title section-title">Фитнесс-центр</h2>
+            <div class="fitness__switch-container">
+                <div class="btn-container">
+                    <ul class="fitness__btn-list">
+                        <li class="fitness__btn-item"><input type="button" value="Тренажерный зал" class="switch-btn">
+                        </li>
+                        <li class="fitness__btn-item"><input type="button" value="Аэробика" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Тренеры" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Прайс-лист" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Правила посещения фитнесс-центра"
+                                class="switch-btn"></li>
+                    </ul>
+                </div>
+                <div class="fitness__content">
+                    <div id="fitness">
+                        <div class="template">
+                            <h3 class="template__title">Фото-галлерея</h3>
+                            <div class="slider">
+                                <img src="./images/left-arrow.svg" alt="" class="slider__left-arrow">
+                                <div class="slider__img-container">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                </div>
+                                <img src="./images/right-arrow.svg" alt="" class="slider__right-arrow">
+                            </div>
+                            <article class="template__text">
+                                <p class="template__paragraph">
+                                    Каждый человек хочет выглядеть привлекательно. Зачастую, чтобы приумножить красоту,
+                                    требуется лишь немного поработать над собой и перейти от сидячего образа жизни к
+                                    занятиям спортом. И Велнес-клуб «Оазис» предлагает своим клиентам все необходимое
+                                    для проведения тренировок.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <template id="fitness">
+                        <h3 class="slider__title">Фото-галлерея</h3>
+                        <div class="slider">
+                            <img src="" alt="" class="slider__left-arrow">
+                            <div class="slider__img-container">
+                                <img src="" alt="" class="slider__img">
+                                <img src="" alt="" class="slider__img">
+                                <img src="" alt="" class="slider__img">
+                            </div>
+                            <img src="" alt="" class="slider__right-arrow">
+                        </div>
+                    </template>
+                </div>
+            </div>
         </section>
-        <section class="fitness"></section>
-        <section class="pool"></section>
+        <section class="fitness">
+            <h2 class="fitness__title section-title">СПА-центр</h2>
+            <div class="fitness__switch-container">
+                <div class="btn-container">
+                    <ul class="fitness__btn-list">
+                        <li class="fitness__btn-item"><input type="button" value="Тренажерный зал" class="switch-btn">
+                        </li>
+                        <li class="fitness__btn-item"><input type="button" value="Аэробика" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Тренеры" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Прайс-лист" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Правила посещения фитнесс-центра"
+                                class="switch-btn"></li>
+                    </ul>
+                </div>
+                <div class="fitness__content">
+                    <div id="fitness">
+                        <div class="template">
+                            <h3 class="template__title">Фото-галлерея</h3>
+                            <div class="slider">
+                                <img src="./images/left-arrow.svg" alt="" class="slider__left-arrow">
+                                <div class="slider__img-container">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                </div>
+                                <img src="./images/right-arrow.svg" alt="" class="slider__right-arrow">
+                            </div>
+                            <article class="template__text">
+                                <p class="template__paragraph">
+                                    Каждый человек хочет выглядеть привлекательно. Зачастую, чтобы приумножить красоту,
+                                    требуется лишь немного поработать над собой и перейти от сидячего образа жизни к
+                                    занятиям спортом. И Велнес-клуб «Оазис» предлагает своим клиентам все необходимое
+                                    для проведения тренировок.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <template id="fitness">
+                        <h3 class="slider__title">Фото-галлерея</h3>
+                        <div class="slider">
+                            <img src="" alt="" class="slider__left-arrow">
+                            <div class="slider__img-container">
+                                <img src="" alt="" class="slider__img">
+                                <img src="" alt="" class="slider__img">
+                                <img src="" alt="" class="slider__img">
+                            </div>
+                            <img src="" alt="" class="slider__right-arrow">
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
+        <section class="fitness">
+            <h2 class="fitness__title section-title">Аква-центр</h2>
+            <div class="fitness__switch-container">
+                <div class="btn-container">
+                    <ul class="fitness__btn-list">
+                        <li class="fitness__btn-item"><input type="button" value="Тренажерный зал" class="switch-btn">
+                        </li>
+                        <li class="fitness__btn-item"><input type="button" value="Аэробика" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Тренеры" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Прайс-лист" class="switch-btn"></li>
+                        <li class="fitness__btn-item"><input type="button" value="Правила посещения фитнесс-центра"
+                                class="switch-btn"></li>
+                    </ul>
+                </div>
+                <div class="fitness__content">
+                    <div id="fitness">
+                        <div class="template">
+                            <h3 class="template__title">Фото-галлерея</h3>
+                            <div class="slider">
+                                <img src="./images/left-arrow.svg" alt="" class="slider__left-arrow">
+                                <div class="slider__img-container">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                    <img src="./images/photo_1.jpg" alt="Фото зала" class="slider__img">
+                                </div>
+                                <img src="./images/right-arrow.svg" alt="" class="slider__right-arrow">
+                            </div>
+                            <article class="template__text">
+                                <p class="template__paragraph">
+                                    Каждый человек хочет выглядеть привлекательно. Зачастую, чтобы приумножить красоту,
+                                    требуется лишь немного поработать над собой и перейти от сидячего образа жизни к
+                                    занятиям спортом. И Велнес-клуб «Оазис» предлагает своим клиентам все необходимое
+                                    для проведения тренировок.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <template id="fitness">
+                        <h3 class="slider__title">Фото-галлерея</h3>
+                        <div class="slider">
+                            <img src="" alt="" class="slider__left-arrow">
+                            <div class="slider__img-container">
+                                <img src="" alt="" class="slider__img">
+                                <img src="" alt="" class="slider__img">
+                                <img src="" alt="" class="slider__img">
+                            </div>
+                            <img src="" alt="" class="slider__right-arrow">
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
-    
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a href="" class="footer__nav-link">Главная</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="" class="footer__nav-link">Фитнесс-центр</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="" class="footer__nav-link">Спа-центр</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="" class="footer__nav-link">Аква-центр</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <ul class="footer__contacts-list">
+                    <li class="footer__contacts-item">Контактный телефон Велнес клуб "Оазис"</li>
+                    <li class="footer__contacts-item">+7 (8112) 58-05-38 Фитнес-центр</li>
+                    <li class="footer__contacts-item">+7 (8112) 58-05-35 СПА - центр</li>
+                    <li class="footer__contacts-item">+7 (8112) 58-05-05 Аква-центр</li>
+                    <li class="footer__contacts-item">e-mail: <a href="" class="footer__contacts-email">klub@oazisclub.ru</a></li>
+                    <li class="footer__contacts-item">Россия, Псков, ул. Рокоссовского 7а</li>
+                </ul>
+            </div>
+            <div class="footer__feedback">
+                <form action="" class="feedback">
+                    <h3 class="feedback__title">Форма обратной связи</h3>
+                    <input type="text" class="feedback__items">
+                    <input type="text" class="feedback__items">
+                    <input type="text" class="feedback__items">
+                </form>
+            </div>
+        </div>
+        <div class="footer__rights">
+            <p class="footer__copyright">&copy; All right reserved</p>
+            <p class="footer__autor"></p>
+        </div>
+    </footer>
 </body>
+
 </html>

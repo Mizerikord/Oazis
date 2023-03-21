@@ -1,0 +1,7 @@
+.profile__img-container{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid red;
+}

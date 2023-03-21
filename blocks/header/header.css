@@ -1,0 +1,7 @@
+ .header{
+    min-width: 1280px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #2A2C2F;
+ }

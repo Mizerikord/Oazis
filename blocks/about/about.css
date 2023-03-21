@@ -1,0 +1,9 @@
+.about{
+    width: 100%;
+    min-height: 559px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}

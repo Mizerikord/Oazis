@@ -1,0 +1,9 @@
+.news__link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.news__link:after{
+    content: " >>";
+    color: rgb(10, 155, 10);
+}
