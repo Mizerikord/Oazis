@@ -1,5 +1,7 @@
 .direction__link{
     text-decoration: none;
     color: #b4b4b4;
-    margin: 0 0 0 40px;
+    margin: 7px 0 10px 40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }

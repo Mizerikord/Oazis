@@ -1,0 +1,7 @@
+.feedback__btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}

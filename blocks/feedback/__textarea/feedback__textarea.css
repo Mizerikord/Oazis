@@ -1,0 +1,7 @@
+.feedback__textarea{
+    width: 300px;
+    min-height: 100px;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}

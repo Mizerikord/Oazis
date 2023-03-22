@@ -1,0 +1,8 @@
+.chapter__content{
+    width: 75%;
+    background-color: #555555;
+    margin-left: 35px;
+    border-radius: 30px;
+    /* верменный параметр */
+    min-height: 500px;
+}

@@ -3,4 +3,6 @@
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 10px 20px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }

@@ -4,5 +4,7 @@
     margin: 5px 20px;
     justify-self: start;
     border: none;
-    box-shadow: 0 0 15px 15px  #fff;;
+    box-shadow: 0 0 15px 15px  #fff;
+    background-color: #fff;
+    border-radius: 20px;
 }

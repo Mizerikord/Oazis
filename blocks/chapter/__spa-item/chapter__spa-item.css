@@ -1,0 +1,15 @@
+.chapter__spa-item{
+    cursor: pointer;
+    padding: 0 10px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    word-wrap: break-word;
+    border-bottom: 3px solid #059900;
+    border-right: 3px solid #059900;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: normal;
+    border-radius: 40px/40px 0;
+
+}
