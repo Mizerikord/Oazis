@@ -1,4 +1,5 @@
 .slider__img{
     width: 300px;
     height: 200px;
+    box-shadow: 0 0 20px #2A2C1C;
 }
