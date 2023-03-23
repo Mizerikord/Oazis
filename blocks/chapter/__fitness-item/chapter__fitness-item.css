@@ -1,14 +1,12 @@
 .chapter__fitness-item{
     cursor: pointer;
-    padding: 0 10px;
     margin: 0;
-    height: 60px;
+    padding: 0 30px;
+    height: 40px;
     width: 100%;
-    word-wrap: break-word;
-    border-bottom: 3px solid red;
-    border-right: 3px solid red;
     font-size: 14px;
     font-weight: 700;
     white-space: normal;
-    border-radius: 40px/40px 0;
+    border: none;
+    background-color: #fff;
 }

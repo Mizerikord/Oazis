@@ -1,5 +1,19 @@
 .chapter__btn-item{
-    margin: 0 0px 8px;
+    margin: 0;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+.chapter__btn-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 30px solid #2A2C2F;
+    border-right: 30px solid #fff;
+}
+
+.chapter__btn-item::before:hover{
+opacity: 0.6;
 }

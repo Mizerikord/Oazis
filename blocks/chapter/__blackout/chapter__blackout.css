@@ -1,9 +1,8 @@
 .chapter__blackout{
-transition-property: background-color;
+transition-property: height;
 transition-duration: 0.5s;
-background-color: #fff;
 }
 
 .chapter__blackout:hover{
-    background-color: #c0c0c0;
+    height: 60px;
 }
