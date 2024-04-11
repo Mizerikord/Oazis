@@ -5,6 +5,7 @@
     background-position: center;
     height: 100vh;
     background-size: cover;
+    position: relative;
 }
 
 .pool-main::before {
