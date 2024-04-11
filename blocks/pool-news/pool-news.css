@@ -1,0 +1,11 @@
+.pool-news{
+    background-color: #010036;
+}
+
+.pool-card-info{
+    background-color: rgb(1, 0, 54, 0.5);
+}
+
+.pool-card-info:hover{
+    background-color: rgb(1, 0, 54, 1);
+}

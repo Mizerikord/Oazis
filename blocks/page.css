@@ -1,0 +1,65 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEEED6;
+    min-width: 320px;
+}
+
+.section-title {
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+}
+
+.add-cards {
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 16px;
+    width: 20%;
+    height: 40px;
+}
+
+@media screen and (max-width: 1070px) {
+    .add-cards {
+        width: 20%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .section-title {
+        font-size: 24px;
+        line-height: 16px;
+    }
+
+    .add-cards {
+        font-size: 20px;
+        line-height: 16px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .section-title {
+        font-size: 20px;
+    }
+
+    .add-cards {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-title {
+        font-size: 16px;
+    }
+
+    .add-cards {
+        width: 50%;
+    }
+}

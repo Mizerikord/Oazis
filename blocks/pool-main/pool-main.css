@@ -1,0 +1,82 @@
+.pool-main {
+    background-image: url(../../media/POOL-MAIN.jpg);
+    justify-content: space-between;
+    align-items: flex-start;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.pool-main::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.pool-slogan{
+    margin: 80px 3%;
+    width: 50%;
+    align-self: center;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.pool-nav-line-title {
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pool-anchor {
+    color: #ffffff;
+}
+
+.pool-nav-line {
+    background: linear-gradient(to right, rgba(1, 0, 54, 100%), rgba(1, 0, 54, 0%));
+    margin-bottom: 80px;
+    z-index: 1;
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .pool-main {
+        max-width: 1024px;
+        min-height: 560px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pool-main::before {
+        max-height: 850px;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    .pool-main::before {
+        max-height: 800px;
+    }
+
+    .pool-nav-line {
+        margin-bottom: 20px;
+    }
+
+    .pool-slogan{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .pool-main::before {
+        max-height: 667px;
+    }
+}

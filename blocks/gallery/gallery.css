@@ -1,0 +1,218 @@
+.gallery{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery_oazis{
+    background: linear-gradient(to bottom, rgb(209, 209, 209, 0%), rgb(60, 42, 33, 100%));
+}
+
+.gallery_fitness{
+    background: linear-gradient(to bottom, rgb(209, 209, 209, 100%), rgb(0, 1, 37, 100%));
+}
+
+.gallery_spa{
+    background: linear-gradient(to bottom, rgb(209, 209, 209, 100%), rgb(6, 40, 0, 100%));
+}
+
+.gallery_pool{
+    background: linear-gradient(to bottom, rgb(209, 209, 209, 100%), rgb(0, 1, 54, 100%));
+}
+
+.gallery__title{
+    color: #000000;
+    margin: 30px 0 50px;
+}
+
+.gallery__switch{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.gallery-switch-btn{
+    width: 200px;
+    height: 40px;
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 16px;
+    background-color: rgb(60, 42, 33, 0);
+    cursor: pointer;
+    border: 1px solid #000000;
+    transition-duration: 0.5s;
+}
+
+.gallery-switch-btn_active-oazis{
+    background-color: #3C2A21;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.gallery-switch-btn_active-fitness{
+    background-color: #000125;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.gallery-switch-btn_active-spa{
+    background-color: #062800;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.gallery-switch-btn_active-pool{
+    background-color: #010036;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.gallery_cards{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.gallery-cards-list{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 340px);
+    grid-auto-flow: row dense;
+    justify-content: center;
+    grid-gap: 30px;
+    margin: 0 50px;
+}
+
+.gallery-card-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+    aspect-ratio: 16/9;
+}
+
+.video-container{
+    position: relative;
+    background-color: grey;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.gallery-likes-number{
+    margin: 0;
+    width: 50px;
+    background: linear-gradient(0.25turn, rgb(1, 0, 54, 100%) 5%, rgb(209, 209, 209, 100%) 50%, rgb(1, 0, 54, 100%) 95%);
+    text-align: center;
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+}
+
+.gallery-img{
+    width: 100%;
+    background-color: grey;
+    aspect-ratio: 16/9;
+}
+
+.gallery-video{
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.gallery-video_disable{
+    content: "";
+    position: absolute;
+    background-image: url(../../media/PlayVideo.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+    background-position: center center;
+    transition-duration: 0.5s;
+    aspect-ratio: 16/9;
+}
+
+.gallery-video_disable:hover{
+    transition-duration: 0.5s;
+    opacity: 0.6;
+}
+
+.gallery-likes{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.gallery-like{
+    cursor: pointer;
+}
+
+.gallery-like:hover{
+    opacity: 0.5;
+}
+
+.gallery__add{
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 16px;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    .gallery-cards-list{
+        grid-template-columns: repeat(auto-fit, 300px);
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .gallery-cards-list{
+        grid-template-columns: repeat(auto-fit, 240px);
+    }
+
+    .gallery-switch-btn{
+        width: 160px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .gallery-cards-list{
+        grid-template-columns: repeat(auto-fit, 260px);
+        grid-gap: 20px;
+        margin: 0;
+    }
+
+    .gallery-switch-btn{
+        width: 140px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    .gallery-cards-list{
+        grid-template-columns: repeat(auto-fit, 240px);
+    }
+
+    .gallery-switch-btn{
+        width: 100px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 12px;
+    }
+}

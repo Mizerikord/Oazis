@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'AlegreyaSC';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("AlegreyaSC-Medium.woff") format("woff"),
+       url("AlegreyaSC-Medium.woff2") format("woff2");
+} 
+
+@font-face {
+  font-family: 'AlegreyaSC';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("AlegreyaSC-Regular.woff2") format("woff2"),
+       url("AlegreyaSC-Regular.woff") format("woff");
+} 
+
+@font-face {
+  font-family: 'AlegreyaSC';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("AlegreyaSC-Black.woff2") format("woff2"),
+       url("AlegreyaSC-Black.woff") format("woff");
+} 

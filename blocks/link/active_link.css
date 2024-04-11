@@ -1,0 +1,37 @@
+.active-button:hover{
+    transition-duration: 0.5s;
+    border-color: #000000;
+    color: rgb(200, 200, 200);
+}
+
+.active-anchor:hover{
+    color: #535353;
+    transition-duration: 0.5s;
+}
+
+.add-cards_active:hover{
+    transition-duration: 0.5s;
+    border-color: #888888;
+    color: rgb(121, 121, 121);
+}
+
+.active-link:hover{
+    color: #cacaca;
+    transition-duration: 0.5s;
+}
+
+.login__button_active:hover{
+    background-color: #ffdaa1;
+    transition-duration: 0.5s;
+}
+
+.gallery-switch-btn:hover{
+    transition-duration: 0.5s;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+}
+
+.gallery-like:hover{
+    fill: red;
+    transition-duration: 0.5s;
+}

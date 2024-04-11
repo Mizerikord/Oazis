@@ -1,0 +1,11 @@
+.spa-news{
+    background-color: #062800;
+}
+
+.spa-card-info{
+    background-color: rgb(6, 40, 0, 0.5);
+}
+
+.spa-card-info:hover{
+    background-color: rgb(6, 40, 0, 1);
+}

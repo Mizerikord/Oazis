@@ -1,0 +1,22 @@
+@import url(../blocks/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/oazis-main/oazis-main.css);
+@import url(../blocks/fitness-main/fitness-main.css);
+@import url(../blocks/spa-main/spa-main.css);
+@import url(../blocks/pool-main/pool-main.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/oazis-news/oazis-news.css);
+@import url(../blocks/fitness-news/fitness-news.css);
+@import url(../blocks/spa-news/spa-news.css);
+@import url(../blocks/pool-news/pool-news.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about-fitness/about-fitness.css);
+@import url(../blocks/about-spa/about-spa.css);
+@import url(../blocks/about-pool/about-pool.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/link/active_link.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);

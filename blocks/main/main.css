@@ -1,0 +1,216 @@
+.main {
+    width: 100%;
+    max-width: 1280px;
+    height: 100vh;
+    min-height: 642px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-line {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-line__title {
+    margin-left: 35px;
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 28px;
+}
+
+.anchors-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 25px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    transition-duration: 0.5s;
+}
+
+.slogan {
+    color: #ffffff;
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-line__title {
+        font-size: 36px;
+        margin-left: 25px;
+    }
+
+    .anchors-list {
+        gap: 12px;
+        margin-right: 25px;
+    }
+
+    .anchor {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .nav-line {
+        height: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .main {
+        max-width: 1024px;
+        min-height: 560px;
+    }
+
+    .title {
+        font-size: 64px;
+        line-height: 48px;
+        margin: 0 50px;
+    }
+
+    .about-oazis {
+        font-size: 24px;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+
+    .text-list {
+        margin: 30px 50px 30px 50px;
+    }
+
+    .nav-line__title {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .anchors-list {
+        gap: 12px;
+        margin-right: 20px;
+    }
+
+    .anchor {
+        font-size: 18px;
+    }
+
+    .slogan {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .main {
+        min-height: 400px;
+        max-height: 850px;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 38px;
+        margin: 0 30px;
+    }
+
+    .about-oazis {
+        font-size: 18px;
+        line-height: 14px;
+    }
+
+    .text-list {
+        margin: 30px 30px 30px 30px;
+        max-width: 767px;
+    }
+
+    .nav-line {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .nav-line__title {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    .anchors-list {
+        gap: 15px;
+        margin: 0 0 20px 0;
+    }
+
+    .anchor {
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    @media screen and (max-width: 569px) {
+
+        .main {
+            min-height: 300px;
+        }
+
+        .title {
+            font-size: 32px;
+            line-height: 32px;
+            text-wrap: wrap;
+            margin: 0 20px;
+        }
+
+        .about-oazis {
+            font-size: 14px;
+            line-height: 12px;
+        }
+
+        .slogan {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .main {
+            max-height: 800px;
+        }
+
+        .about-oazis {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        .anchors-list {
+            gap: 0;
+            flex-direction: column;
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .main {
+        max-height: 667px;
+    }
+}

@@ -1,0 +1,11 @@
+.fitness-news{
+    background-color: #010036;
+}
+
+.fitness-card-info{
+    background-color: rgb(0, 1, 54, 0.5);
+}
+
+.fitness-card-info:hover{
+    background-color: rgb(0, 1, 54, 1);
+}

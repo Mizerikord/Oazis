@@ -1,0 +1,138 @@
+.aboutUs_fitness{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.about-fitness-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.about-fitness-item{
+    background-color: #D9D9D9;
+    width: 260px;
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-fitness-item_active{
+    background-color: #afafaf;
+}
+
+.about-fitness-icon{
+    width: 120px;
+    height: 100px;
+}
+
+.about-fitness-description{
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.aboutUs_fitness{
+    background: linear-gradient(to bottom, rgb(1, 0, 54, 100%), rgb(209, 209, 209, 100%));
+}
+.about-fitness-cards{
+    width: 95%;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 282px);
+    grid-gap: 20px;
+}
+
+.about-fitness-card{
+    width: 282px;
+    background-color: #d9d9d9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-fitness-card-name{
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+}
+
+.about-fitness-card-img{
+    width: 100%;
+    aspect-ratio: 9/9;
+    object-position: 50% 50%;
+    object-fit: contain;
+    background-color: #d9d9d9;
+}
+
+.about-fitness-arrow{
+    align-items: center;
+    justify-content: center;
+    display: none;
+    width: 70px;
+}
+
+.right-arrow{
+    opacity: 0.2;
+}
+
+.add-fitness-cards{
+    font-family: 'AlegreyaSC', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #000000;
+    margin: 50px 0;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1180px) {
+    .about-fitness-item:nth-child(-n+2){
+        display: none;
+    }
+
+    .about-fitness-arrow{
+        display: flex;
+    }
+
+    .about-fitness-cards{
+        grid-template-columns: repeat(auto-fit, 260px);
+    }
+    
+    .about-fitness-card{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .about-fitness-item:nth-child(-n+3){
+        display: none;
+    }
+
+    .about-fitness-arrow{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .about-fitness-item:nth-child(-n+4){
+        display: none;
+    }
+
+    .about-fitness-arrow{
+        display: flex;
+    }
+}

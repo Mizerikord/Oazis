@@ -1,0 +1,82 @@
+.spa-main {
+    background-image: url(../../media/SPA_MAIN.jpeg);
+    justify-content: space-between;
+    align-items: flex-start;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.spa-main::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.spa-slogan{
+    margin: 80px 3%;
+    align-self: flex-end;
+    width: 30%;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.spa-nav-line-title {
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+}
+
+.spa-anchor {
+    color: #ffffff;
+}
+
+.spa-nav-line {
+    background: linear-gradient(to right, rgba(0, 88, 4, 100%), rgba(0, 88, 4, 0%));
+    margin-bottom: 80px;
+    z-index: 1;
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .spa-main {
+        max-width: 1024px;
+        min-height: 560px;
+    }
+
+    .spa-slogan{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .spa-main::before {
+        max-height: 850px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .spa-main::before {
+        max-height: 800px;
+    }
+
+    .spa-nav-line {
+        margin-bottom: 20px;
+    }
+    .spa-slogan{
+        width: 90%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .spa-main::before {
+        max-height: 667px;
+    }
+}

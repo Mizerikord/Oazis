@@ -1,0 +1,11 @@
+.oazis-news{
+    background-color: #3C2A21;
+}
+
+.oazis-card-info{
+    background-color: rgb(60, 42, 33, 0.5);
+}
+
+.oazis-card-info:hover{
+    background-color: rgb(60, 42, 33, 1);
+}
